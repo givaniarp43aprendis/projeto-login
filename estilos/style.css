@@ -4,3 +4,49 @@
 #4CAF50-verde
 #5f2c82-roxo
 #49a09d-azul*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color:#5f2c82 ;
+}
+main{
+   position: relative;
+    height: 100vh;
+    width: 100vw;
+   
+}
+section {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+   padding-right: 50px;
+    
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;/*esconder o que ultrapassou a borda*/
+box-shadow: 0px 0px 10px 0px
+#49a09d
+;/*adicionou sonbra*/
+}
+section >div#imagem {
+    background: #5f2c82 url(../imagens/pexels-rahib-oussama-2147578878-29664936.jpg)no-repeat;
+    background-position: center;
+    background-size:cover;
+   padding-left: 20px;
+   border-radius: 5px;
+    height: 250px;
+    width: 250px;
+
+}
+section >div#formulário {
+    display: block;
+    padding: 20px;
+}
