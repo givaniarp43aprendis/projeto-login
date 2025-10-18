@@ -8,7 +8,7 @@
     
 
 section >div#formulário {
-   width: 30%;
+   width: 50%;
    height: 100%;
   
     float: right;
@@ -28,21 +28,27 @@ section >div#formulário {
     }
     section {
         width: 950vw;
-        height: 70vh;
+        
     }
     section >div#formulário {
        width: 50%;
-       
+      height: 100%;
       
         float: right;
        
          
     }
+    div#formulário > h1 {
+        font-size: 2em;
+    }
+    div#formulário >p {
+        font-size: 1em;
+    }
         section >div#imagem {
             width: 50%;
-            height:100%;
-            padding: 110px;
-            float: left;
+            height:90%;
+           padding: 110px;
+            float:left;
             
         }
 }
