@@ -22,7 +22,7 @@ section >div#formulário {
         float: left;
     }
 }
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px)and (max-width:1400px){
     body {
         background-image: linear-gradient( to top,#034341,#4CAF50);
     }

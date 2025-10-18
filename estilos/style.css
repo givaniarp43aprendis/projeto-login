@@ -30,6 +30,7 @@ section {
    padding-right: 50px;
     
     background-color: white;
+    
     width: 250px;
     border-radius: 20px;
     overflow: hidden;/*esconder o que ultrapassou a borda*/
@@ -61,3 +62,77 @@ div#formulário > h1 {
 div#formulário > p {
     font-size: 0.8em;
 }
+form > div.campo {
+    background-color: #5f2c82;
+    position: relative;
+    margin-top: 15px;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo >label {
+   display: none;
+   width: 50%;
+
+
+    
+}
+form > input[type="submit"] {
+    display: block;
+   font-size: 1em;
+   width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form > input[type="submit"]:hover {
+    background-color: #0d330f;
+}
+form > a.botao {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(55, 147, 228)
+    ;
+    color: white;
+    border: none ;
+    border-radius: 7px;
+    text-decoration: none;
+    line-height: 30px;
+    
+}
+form > a.botao:hover {
+    background-color: #1f66a8;
+
+}
+form .campo span.material-symbols-outlined {
+    position: absolute;
+    top: 50%;
+    padding-right: 50px;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #555;
+}
+input[type="email"], input[type="password"] {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+    
