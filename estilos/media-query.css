@@ -1,9 +1,12 @@
 @charset "UTF-8";
 /*versão específica para tablets768px a 992px*/
 @media (min-width: 768px) and (max-width: 992px){
+    body {
+        background-image: linear-gradient( to top,#034341,#4CAF50);
+    }
     section {
         width:80vw;
-        height: 60vh;
+     height: 80vh;
     }
     
 
@@ -27,7 +30,8 @@ section >div#formulário {
         background-image: linear-gradient( to top,#034341,#4CAF50);
     }
     section {
-        width: 950vw;
+        width:950px;
+        height: 350px;
         
     }
     section >div#formulário {
@@ -43,10 +47,11 @@ section >div#formulário {
     }
     div#formulário >p {
         font-size: 1em;
+       
     }
         section >div#imagem {
             width: 50%;
-            height:90%;
+            height:100%;
            padding: 110px;
             float:left;
             
